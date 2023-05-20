@@ -1,20 +1,23 @@
 {
     "version": "2",
     "templates": [
-      {
-        "type": 1,
-        "title": "Redis",
-        "description": "Open-source in-memory data structure store",
-        "categories": ["database"],
-        "platform": "linux",
-        "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
-        "image": "redis:latest",
-        "ports": ["6379/tcp"],
-        "volumes": [
-          {
-            "container": "/data"
-          }
-        ]
-      }
+        {
+            "type": 2,
+            "title": "Redis Cluster",
+            "description": "Open-source in-memory data structure store - Cluster mode",
+            "categories": ["database"],
+            "platform": "linux",
+            "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
+            "repository": {
+                "url": "https://github.com/cbast/portainer-templates",
+                "stackfile": "stacks/redis/docker-compose.yaml"
+            },
+            "env": [
+                {
+                "name": "REDIS_PASSWD",
+                "label": "Redis password"
+                }
+            ]
+        }
     ]
   }
