@@ -39,7 +39,19 @@
             "repository": {
                 "url": "https://github.com/docker/awesome-compose",
                 "stackfile": "wireguard/compose.yaml"
-            }
+            },
+            "env": [
+                {
+                    "name": "TIMEZONE",
+                    "label": "Timezone",
+                    "default": "Etc/UTC"
+                },
+                {
+                    "name": "VPN_SERVER_URL",
+                    "default": "your-domain.dyndns.com",
+                    "label": "Domain Name - Optional"
+                }
+            ]
         }
     ]
   }
