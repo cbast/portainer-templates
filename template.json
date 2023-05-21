@@ -18,6 +18,17 @@
                 "label": "Redis password"
                 }
             ]
+        },
+        {
+            "type": 3,
+            "title": "Portainer (CE)",
+            "description": "Easily build and manage containers in Docker, Docker Swarm, Kubernetes and Azure ACI.",
+            "categories": ["docker"],
+            "platform": "linux",
+            "repository": {
+                "url": "https://github.com/docker/awesome-compose/",
+                "stackfile": "portainer/compose.yaml"
+            }
         }
     ]
   }
