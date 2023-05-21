@@ -14,8 +14,8 @@
             },
             "env": [
                 {
-                "name": "REDIS_PASSWD",
-                "label": "Redis password"
+                    "name": "REDIS_PASSWD",
+                    "label": "Redis password"
                 }
             ]
         },
