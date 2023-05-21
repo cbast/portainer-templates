@@ -29,29 +29,6 @@
                 "url": "https://github.com/docker/awesome-compose/",
                 "stackfile": "portainer/compose.yaml"
             }
-        },
-        {
-            "type": 3,
-            "title": "Wireguard",
-            "description": "Extremely simple yet fast and modern VPN.",
-            "categories": ["vpn"],
-            "platform": "linux",
-            "repository": {
-                "url": "https://github.com/docker/awesome-compose",
-                "stackfile": "wireguard/compose.yaml"
-            },
-            "env": [
-                {
-                    "name": "TIMEZONE",
-                    "label": "Timezone",
-                    "default": "Etc/UTC"
-                },
-                {
-                    "name": "VPN_SERVER_URL",
-                    "default": "your-domain.dyndns.com",
-                    "label": "Domain Name - Optional"
-                }
-            ]
         }
     ]
   }
