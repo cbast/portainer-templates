@@ -44,7 +44,7 @@
                 {
                     "name": "TIMEZONE",
                     "label": "Timezone",
-                    "default": "Etc/UTC",
+                    "default": "Etc/UTC"
                 },
                 {
                     "name": "VPN_SERVER_URL",
@@ -52,6 +52,6 @@
                     "label": "Domain Name - Optional"
                 }
             ]
-        },
+        }
     ]
   }
